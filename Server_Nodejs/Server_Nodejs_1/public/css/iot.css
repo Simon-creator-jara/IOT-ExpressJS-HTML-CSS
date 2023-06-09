@@ -1,0 +1,23 @@
+body{
+    background-color: steelblue;
+}
+h2{
+    border: 3px black dotted;
+    color: white;
+    max-width: fit-content;
+    align-content: center;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: aquamarine;
+    /*
+    max-width: 70%;
+    */
+    margin-top:1px;
+    margin-left:20px;
+    margin-right:1px;
+    margin-bottom:20px;   
+}

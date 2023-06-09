@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head> <!-- Configuración página web-->
+        <meta charset="utf-8"><!-- Caracteres universales-->
+        <title>Datos IoT</title><!-- Título de la pestaña-->
+        <link rel="stylesheet" type="text/css" href="css/iot.css"
+    </head>
+    <body>
+        <h1>Datos IoT</h1>
+        <hr/> <!-- Línea horizontal para separar partes del sitio-->
+        <h4 id="Titulo1">Datos de sensor 1: </h4>
+        <h6>Temperatura: </h6>
+        <p id="temp1">0 °C</p>
+        <h6>Humedad: </h6>
+        <p id="hum1">0 %</p>
+        <button onclick = "datos1()">Actualizar</button>
+        <hr/> <!-- Línea horizontal para separar partes del sitio-->
+
+        <h4 id="Titulo1">Datos de sensor 2: </h4>
+        <h6>Temperatura: </h6>
+        <p id="temp2">0 °C</p>
+        <h6>Humedad: </h6>
+        <p id="hum2">0 %</p>
+        <button onclick = "datos2()">Actualizar</button>
+        <hr/> <!-- Línea horizontal para separar partes del sitio-->
+
+        <!--Insertamos el Javascript al final del Body-->
+        <script src="js/iot.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+body {
+  font-family: "Courier New", monospace;
+}
+
+.main-head {
+  height: 150px;
+  background: #000;
+}
+
+.sidenav {
+  height: 100%;
+  background-image: url(../img/Incendio.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.main {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-form {
+    margin-top: 10%;
+  }
+
+  .register-form {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 40%;
+  }
+
+  .sidenav {
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+  .login-form{
+    margin-top: 10%;
+    margin-left: 50%;
+  }
+  .register-form {
+    margin-top: 10%;
+  }
+}
+
+
+
+
+.login-main-text {
+  margin-top: 20%;
+  padding: 60px;
+  color: #000;
+}
+
+.login-main-text h2 {
+  font-weight: 300;
+}
+
+.btn-black {
+  background-color: #08577f !important;
+  color: #fff;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: orange;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: orange;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+
+#rcorners3 {
+  border-radius: 25px;
+  background:orange;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#temp1{
+  margin-top: -575px;
+  margin-left: 500px;
+  font-size: 50px;
+}
+
+#humedad1{
+  margin-top: 175px;
+  margin-left:500px;
+  font-size: 50px;
+}
+
+#ca1{
+  margin-top: 200px;
+  margin-left:500px;
+  font-size: 50px;
+}
+
+
+
+

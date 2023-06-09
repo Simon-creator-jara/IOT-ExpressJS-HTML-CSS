@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+}
+h4{
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+
+}
+h2{
+    border: 3px black dotted;
+    color: white;
+    max-width: fit-content;
+    align-content: center;
+
+}
+h6{
+    
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+
+}
+
+
+p{
+    border: black 3px;
+    border-style: inset;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-top:1px;
+    margin-left:20px;
+    margin-right:1px;
+    margin-bottom:20px; 
+}

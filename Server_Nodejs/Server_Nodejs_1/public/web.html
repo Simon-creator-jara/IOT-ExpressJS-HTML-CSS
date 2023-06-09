@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head> <!--Configuración-->
+        <meta charset="utf-8"> <!-- caracteres universales-->
+        <title>Título página </title> <!--Título pestaña-->
+        <link rel="stylesheet" type="text/css" href="web.css">
+    </head>
+
+
+    <body>
+        <center>
+            <h1>Mi primera página web</h1>
+            <hr/>
+        </center>
+
+        <center>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Revista_%C2%A1Hola%21_logo.svg/1200px-Revista_%C2%A1Hola%21_logo.svg.png"/>
+        </center>
+        
+        <ol> <!--Lista ordenada-->
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ol>
+
+        <ul> <!--Lista no ordenada-->
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+
+        <a href="https://www.google.com">LINK</a>
+        <hr/>
+        <button onclick="window.location.href='https://www.google.com'">CLICK ME</button>
+        <hr/>
+        <h2>Input Types:</h2>
+        <h4>Input Type Radio:</h4>
+        <input type="radio" name="P1" value="RespuestaA" id="A">
+        <label for="A">Respuesta A</label><br>
+        <input type="radio" name="P1" value="RespuestaB" id="B">
+        <label for="B">Respuesta B</label><br>
+        <input type="radio" name="P1" value="RespuestaC" id="C">
+        <label for="C">Respuesta C</label><br>
+        <input type="radio" name="P1" value="RespuestaD" id="D">
+        <label for="D">Respuesta D</label><br>
+        <button>SUBMIT</button>
+
+
+        <h4 id="titulo1">Input Type Texto</h4>
+        <input type="text" value="Email" id="mail"><br>
+        <br>
+        <input type="text" value="Password" id="pass"><br>
+        <button onclick="Reemplazar1()">SUBMIT</button>
+        <br>
+        <hr/>
+
+        <h4 id="titulo2">Suma: </h4>
+        <input type="text" value="" id="n1"><br>
+        <h4>+</h4>
+        <input type="text" value="" id="n2"><br>
+        <h4>=</h4>
+        <input type="text" value="" id="res"><br>
+        <button onclick="suma()">SUBMIT</button>
+        <hr/>
+
+        <h4>Random</h4>
+        <input type="text" value="RanMin" id="min">
+        <input type="text" value="RanMax" id="max"><br>
+        <input type="text" value="" id="res1">
+        <button onclick="Random()">SUBMIT</button>
+
+        <!-- Se inserta el JS al final del body-->
+        <script src="web.js"></script>
+    </body>
+</html>
